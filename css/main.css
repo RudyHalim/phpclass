@@ -1,0 +1,75 @@
+body {
+    font:13px Arial, Helvetica, sans-serif;
+    color:#333;
+    line-height:18px;
+    margin:0px;
+    padding:0px;
+    border-top:8px solid #333;
+}
+/* Layout------------------------------------------------ */
+.container {
+    width:960px;
+    text-align:left;
+    position:relative;
+}
+#header {
+    margin:8px 0px;
+    padding:8px 0px;
+    
+    border-bottom:1px solid #d0d0d0;
+}
+#nav {
+    position:absolute;
+    top:0px;
+    right:0px;
+    display:inline;
+}
+#cpyright {
+    border-top:1px solid #d0d0d0;
+    color:#d0d0d0;
+}
+/* Links------------------------------------------------ */
+a {
+    color:#333;
+    text-decoration:none;
+}
+a:hover {
+    color:#777;
+}
+/* Text------------------------------------------------ */
+#cname {
+	color:#ccc;
+	font-size:2.8em;
+	font-weight:bold;
+}
+h2 {
+    color:#a3c2bd;
+    font-size:1.8em;
+}
+/* Forms------------------------------------------------ */
+#searchquery {
+    background-color:#eee;
+    border:1px solid #ddd;
+    padding:2px;
+    color:#777;
+}
+/* Nav------------------------------------------------ */
+ul#nav li {
+    list-style:none;
+    float:left;
+    margin:0px;
+    padding:8px;
+    font-size:14px;
+    font-weight:bold;
+}
+/* Tables------------------------------------------------ */
+form th {
+	text-align:right;
+	border-right:1px solid #ccc;
+	padding:4px 8px 4px 0px;
+	vertical-align:top;
+}
+form td {
+	padding:4px 0px 4px 8px;
+	vertical-align:top;
+}

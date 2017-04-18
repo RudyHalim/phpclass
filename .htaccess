@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+	Options +FollowSymlinks
+	RewriteEngine on
+	RewriteBase /
+
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteRule ^([^/]+)$ index.php?menu=$1 [L]
+	RewriteRule ^artis/([^/]+)$ index.php?menu=artis&cat=$1 [L]
+	RewriteRule ^artis/([^/]+)/([^/]+)$ index.php?menu=artis&cat=$1&game=$2 [L]
+
+</IfModule>
